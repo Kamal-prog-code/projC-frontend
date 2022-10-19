@@ -69,8 +69,7 @@ const App = () => {
           </div>
           <div className='remenber-forgot'>
           <label>
-          <input type="checkbox" checked="checked"
-           name="remember"/> Remember me
+          <input type="checkbox" name="remember"/> Remember me
           </label><br/>
             <a href='#'>Forgot password</a><br/><br/>
           </div>
