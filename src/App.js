@@ -42,7 +42,6 @@ const App = () => {
         <div className='modal'>
           <center>
           <h1 className='main-title'>
-          KREDILY
           </h1>
         </center>
         <form className='modal-content' onSubmit={submitHandler}>
@@ -54,16 +53,16 @@ const App = () => {
 
           <div>
             <label>Email Address/Mobile Number</label><br/>
-            <input className='input-feild' type='text' name='email'
-             placeholder='Eneter Emial ID/Mobile Number'
+            <input className='input-feild input_form' type='text' name='email'
+             placeholder='Enter Email ID/Mobile Number'
              onChange={changeHanddler}
              value={email}/><br/><br/><br/>
           </div>
           
           <div>
             <label>Password</label><br/>
-            <input type='password' name='password'
-             placeholder='Eneter Password'
+            <input class="input_form" type='password' name='password'
+             placeholder='Enter Password'
              value={password}
              onChange={changeHanddler}/><br/><br/>
           </div>
@@ -76,7 +75,8 @@ const App = () => {
             <button  className='sign-btn'>Sign In</button><br/><br/>
             <a href='#'>Login with OTP</a><br/><br/><br/><hr/>
             <p>Kredily.All rights reserved.</p>
-            <a href='#'>Privacy Policy</a></form>
+            <a href='#'>Privacy Policy</a>
+        </form>
         </div>
         
      

@@ -36,10 +36,23 @@ input[type=text], input[type=password] {
 }
 
 /* Add a background color when the inputs get focus */
-input[type=text]:focus, input[type=password]:focus {
+/* input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
-}
+} */
+
+.input_form{
+  margin-bottom: 15px;
+  padding:10px;
+  width:100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height:50px;
+  border:0px;
+  font-family: georgia;
+  font-size: 10pt;
+  text-align: center;
+  }
 
 /* Set a style for all buttons */
 button {
@@ -72,11 +85,11 @@ button:hover {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  margin: 5% auto 15% 60%; /* 5% from the top, 15% from the bottom and centered */
   border: 0px solid #888;
   border-radius: 4px;
   padding: 20px;
-  width: 50%; /* Could be more or less, depending on screen size */
+  width: 30%; /* Could be more or less, depending on screen size */
   box-shadow: 0 4px 26px 0 rgb(0 0 0 / 14%);;
 }
 
