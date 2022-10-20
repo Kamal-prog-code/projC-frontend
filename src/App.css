@@ -44,7 +44,6 @@ input[type=text], input[type=password] {
 .input_form{
   margin-bottom: 15px;
   padding:10px;
-  width:100%;
   box-sizing: border-box;
   border-radius: 5px;
   height:50px;
@@ -53,6 +52,8 @@ input[type=text], input[type=password] {
   font-size: 10pt;
   text-align: center;
   }
+
+.splitScreen{display:flex; flex-direction:row;}
 
 /* Set a style for all buttons */
 button {
@@ -85,7 +86,7 @@ button:hover {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 5% auto 15% 60%; /* 5% from the top, 15% from the bottom and centered */
+  margin: 8% 10% 15% 5%; /* 5% from the top, 15% from the bottom and centered */
   border: 0px solid #888;
   border-radius: 4px;
   padding: 20px;
@@ -99,3 +100,39 @@ button:hover {
   margin-right: -15px;
    margin-left: -15px;
 }
+
+img {
+  width: 400px;
+  height: 400px;
+  margin-top: 10%;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* 
+.span_center{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;} */
