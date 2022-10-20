@@ -67,7 +67,7 @@ const App = () => {
               <label>
               <input type="checkbox" name="remember"/> Remember me
               </label><br/>
-                <a href='#' style={{ marginRight: 0 }}>Forgot password</a><br/><br/>
+                <a href='#' className='forgot_align'>Forgot password</a><br/><br/>
               </div>
               <center>
                 <button  className='sign-btn'>Sign In</button><br/><br/>
