@@ -86,7 +86,7 @@ button:hover {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 8% 10% 15% 5%; /* 5% from the top, 15% from the bottom and centered */
+  margin: 6% 10% 15% 5%; /* 5% from the top, 15% from the bottom and centered */
   border: 0px solid #888;
   border-radius: 4px;
   padding: 20px;
@@ -104,7 +104,7 @@ button:hover {
 img {
   width: 400px;
   height: 400px;
-  margin-top: 10%;
+  margin-top: 8%;
 }
 
 .responsive {
