@@ -3,7 +3,7 @@ import './App.css';
 
 import NavBar from './components/NavBar';
 import Login from "./components/Login";
-import Signup from "./components/Signup";
+import Signup from "./components/SignUp";
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import {useCookies} from 'react-cookie';
 import { useState,useEffect } from "react";
